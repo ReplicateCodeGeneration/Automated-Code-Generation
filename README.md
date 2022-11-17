@@ -23,26 +23,27 @@ cd Automated-Code-Generation/
 ### How to reproduce the code generation models
 
 #### ICSE'19 
-    ```shell
-    cd icses19/
-    sh run.sh
-    ```
+```shell
+cd icses19/
+sh run.sh
+```
 #### TOSEM'19
-    ```shell
-    cd tosem19/
-    sh run.sh
-    ```
+```shell
+cd tosem19/
+sh run.sh
+```
 #### NIPS'21
-    ```shell
-    cd nips21/
-    sh run.sh
-    ```
+```shell
+cd nips21/
+sh run.sh
+```
 #### FSE'22
 Before you start to run experiments with FSE'22, please download the [datasets](https://zenodo.org/record/6900648) first.
-    ```shell
-    cd fse22/
-    sh run.sh
-    ```
+
+```shell
+cd fse22/
+sh run.sh
+```
 
 ### File Structure
 
@@ -68,3 +69,4 @@ Before you start to run experiments with FSE'22, please download the [datasets](
 ├── data_duplication_analysis.py   # the code for data duplication analysis
 ├── get_exp.py  # the code for getting the experiment results
 ├── model_sensitivity_analysis.py   # the code for model sensitivity analysis
+```
